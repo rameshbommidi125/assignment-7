@@ -1,0 +1,161 @@
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100vw;
+
+  padding-left: 20px;
+  padding-right: 40px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.home-icon {
+  font-size: 22px;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.link-white {
+  color: white;
+  text-decoration: none;
+}
+.link-dark {
+  color: black;
+  text-decoration: none;
+}
+.desktop-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 250px;
+}
+.profile-image {
+  height: 35px;
+}
+.logo-image {
+  height: 30px;
+}
+.dark-mode-icon {
+  font-size: 38px;
+}
+.mobile-list {
+  display: none;
+}
+.nav-logout-button {
+  border: 2px solid #00306e;
+  color: #00306e;
+  height: 30px;
+  width: 80px;
+  border-radius: 4px;
+  background-color: white;
+}
+.log-out {
+  border: 2px solid #ffffff;
+  background-color: black;
+  color: white;
+}
+.bg-color-dark {
+  background-color: black;
+}
+.bg-color-white {
+  background-color: white;
+}
+.color-white {
+  color: white;
+}
+.color-dark {
+  color: black;
+}
+.wrong-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.close {
+  margin-right: 40px;
+
+  border: 0px none transparent;
+  background-color: transparent;
+  font-size: 32px;
+}
+.logout-icon-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+.confirm-button {
+  border: 0px none transparent;
+  background-color: #3b82f6;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px;
+  width: 90px;
+}
+.cancel-button {
+  background-color: transparent;
+  padding: 5px;
+  height: 35px;
+  border-radius: 5px;
+  width: 90px;
+}
+.popup-para {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.dark-mode-button {
+  border: 0px none transparent;
+  background-color: transparent;
+}
+.link {
+  width: 150px;
+  text-decoration: none;
+}
+
+@media all and (max-width: 767px) {
+  .desktop-list {
+    display: none;
+  }
+  .mobile-list {
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 170px;
+    margin-left: 40px;
+    width: 170px;
+  }
+  .dark-mode-icon {
+    font-size: 28px;
+  }
+}
+
+.trending-style {
+  background-color: #3b82f6;
+  color: red;
+}
+
+.home-style {
+  background-color: #3b82f6;
+  color: red;
+}
+.gaming-style {
+  background-color: #3b82f6;
+  color: red;
+}
+.saved-style {
+  background-color: #3b82f6;
+  color: red;
+}

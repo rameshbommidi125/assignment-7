@@ -1,0 +1,14 @@
+.home-icon {
+  font-size: 22px;
+  margin-right: 30px;
+  margin-left: 15px;
+}
+
+.link-white {
+  color: white;
+  text-decoration: none;
+}
+.link-dark {
+  color: black;
+  text-decoration: none;
+}
